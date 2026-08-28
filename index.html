@@ -85,30 +85,15 @@
     margin: clamp(1.75rem, 4vh, 2.5rem) 0 0;
   }
 
-  .divider {
-    width: 1px;
-    height: clamp(2.25rem, 6vh, 3.5rem);
-    background: linear-gradient(to bottom, transparent, var(--rule) 40%, var(--rule) 60%, transparent);
-    margin: clamp(1.9rem, 5vh, 3rem) 0;
-  }
-
   .promise {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(1.4rem, 4.4vw, 2.15rem);
-    line-height: 1.28;
-    letter-spacing: -0.015em;
-    max-width: 21ch;
-    text-wrap: balance;
-    margin: 0;
-  }
-
-  .qualifier {
-    font-size: clamp(0.92rem, 2.1vw, 1rem);
-    line-height: 1.6;
+    font-size: min(2.3rem, 5.4vw);
+    line-height: 1.3;
+    letter-spacing: -0.012em;
+    white-space: nowrap;
     color: var(--muted);
-    max-width: 34rem;
-    margin: clamp(1rem, 2.4vh, 1.4rem) 0 0;
+    margin: clamp(1rem, 2.6vh, 1.5rem) 0 0;
   }
 
   nav {
@@ -116,7 +101,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.35rem clamp(1.1rem, 4vw, 2.25rem);
-    margin: clamp(2.5rem, 7vh, 4rem) 0 0;
+    margin: clamp(3.5rem, 10vh, 5.5rem) 0 0;
   }
 
   nav a {
@@ -199,16 +184,9 @@
 
     <h1 class="wordmark rise d2">Valcera</h1>
 
-    <div class="divider rise d4" aria-hidden="true"></div>
+    <p class="promise rise d3">Know which risks are worth taking.</p>
 
-    <p class="promise rise d5">Know which risks are worth taking.</p>
-
-    <p class="qualifier rise d6">Risk and compliance for regulated lenders and funds &mdash; strategy joined to appetite, policy, control and evidence, so it holds the day somebody asks you to prove it.</p>
-
-    <nav class="rise d7" aria-label="Primary">
-      <a href="/what-we-do">What we do</a>
-      <a href="/how-it-works">How it works</a>
-      <a href="/about">About</a>
+    <nav class="rise d4" aria-label="Primary">
       <a class="mail" href="mailto:hello@valcera.com.au">hello@valcera.com.au</a>
     </nav>
 
